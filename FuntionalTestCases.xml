@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+  <test thread-count="5" name="Smoke Testing">
+    <classes>
+      <class name="Ditinteractive.NewsPage"/>
+      <class name="Ditinteractive.About"/>
+      <class name="Ditinteractive.ThemesPage"/>
+      <class name="Ditinteractive.OurworkPage"/>
+      <class name="Ditinteractive.HomePage"/>
+      <class name="Ditinteractive.CareersPage"/>
+      <class name="Ditinteractive.ServicePage"/>
+    </classes>
+  </test> <!-- Smoke Testing -->
+</suite> <!-- SmokeSuite -->

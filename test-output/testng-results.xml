@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="45" passed="45" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T10:15:54 IST" name="SmokeSuite" finished-at="2024-12-02T10:36:06 IST" duration-ms="1211803">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T10:15:54 IST" name="Smoke Testing" finished-at="2024-12-02T10:36:06 IST" duration-ms="1211803">
+      <class name="Ditinteractive.About">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.About@7770f470]" started-at="2024-12-02T10:18:52 IST" name="setUp" finished-at="2024-12-02T10:18:56 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.About@7770f470]" started-at="2024-12-02T10:18:56 IST" name="navigateToWebsite" finished-at="2024-12-02T10:18:58 IST" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="navigateToAboutPage()[pri:2, instance:Ditinteractive.About@7770f470]" started-at="2024-12-02T10:18:58 IST" name="navigateToAboutPage" finished-at="2024-12-02T10:19:44 IST" duration-ms="45795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAboutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.About@7770f470]" started-at="2024-12-02T10:19:44 IST" name="tearDown" finished-at="2024-12-02T10:19:45 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.About -->
+      <class name="Ditinteractive.HomePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.HomePage@7d20d0b]" started-at="2024-12-02T10:23:37 IST" name="setUp" finished-at="2024-12-02T10:23:38 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.HomePage@7d20d0b]" started-at="2024-12-02T10:23:38 IST" name="navigateToWebsite" finished-at="2024-12-02T10:24:06 IST" duration-ms="28302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="testCart()[pri:2, instance:Ditinteractive.HomePage@7d20d0b]" started-at="2024-12-02T10:24:06 IST" name="testCart" finished-at="2024-12-02T10:24:09 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.HomePage@7d20d0b]" started-at="2024-12-02T10:24:09 IST" name="tearDown" finished-at="2024-12-02T10:24:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.HomePage -->
+      <class name="Ditinteractive.ThemesPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.ThemesPage@5e5d171f]" started-at="2024-12-02T10:19:45 IST" name="setUp" finished-at="2024-12-02T10:19:48 IST" duration-ms="3486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.ThemesPage@5e5d171f]" started-at="2024-12-02T10:19:48 IST" name="navigateToWebsite" finished-at="2024-12-02T10:20:05 IST" duration-ms="17418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="navigateToThemesPage()[pri:2, instance:Ditinteractive.ThemesPage@5e5d171f]" started-at="2024-12-02T10:20:05 IST" name="navigateToThemesPage" finished-at="2024-12-02T10:20:38 IST" duration-ms="32333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToThemesPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.ThemesPage@5e5d171f]" started-at="2024-12-02T10:20:38 IST" name="tearDown" finished-at="2024-12-02T10:20:38 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.ThemesPage -->
+      <class name="Ditinteractive.ServicePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:25:16 IST" name="setUp" finished-at="2024-12-02T10:25:19 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:25:19 IST" name="navigateToWebsite" finished-at="2024-12-02T10:25:22 IST" duration-ms="2544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="BigcommercePage()[pri:2, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:25:22 IST" name="BigcommercePage" finished-at="2024-12-02T10:25:57 IST" duration-ms="35621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BigcommercePage -->
+        <test-method signature="MagentoPage()[pri:3, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:25:57 IST" name="MagentoPage" finished-at="2024-12-02T10:26:37 IST" duration-ms="39564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoPage -->
+        <test-method signature="ShopifyPage()[pri:4, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:26:37 IST" name="ShopifyPage" finished-at="2024-12-02T10:27:17 IST" duration-ms="40311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopifyPage -->
+        <test-method signature="WoocommercePage()[pri:5, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:27:17 IST" name="WoocommercePage" finished-at="2024-12-02T10:27:56 IST" duration-ms="38525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WoocommercePage -->
+        <test-method signature="FrontendPage()[pri:6, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:27:56 IST" name="FrontendPage" finished-at="2024-12-02T10:28:24 IST" duration-ms="28042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrontendPage -->
+        <test-method signature="NodeJSPage()[pri:6, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:28:24 IST" name="NodeJSPage" finished-at="2024-12-02T10:28:59 IST" duration-ms="35431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NodeJSPage -->
+        <test-method signature="ReactJSPage()[pri:7, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:28:59 IST" name="ReactJSPage" finished-at="2024-12-02T10:29:31 IST" duration-ms="31726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReactJSPage -->
+        <test-method signature="wordpressPage()[pri:8, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:29:31 IST" name="wordpressPage" finished-at="2024-12-02T10:29:58 IST" duration-ms="27504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wordpressPage -->
+        <test-method signature="BrandingdesignPage()[pri:9, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:29:58 IST" name="BrandingdesignPage" finished-at="2024-12-02T10:30:33 IST" duration-ms="34978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrandingdesignPage -->
+        <test-method signature="LogodesignPage()[pri:10, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:30:33 IST" name="LogodesignPage" finished-at="2024-12-02T10:31:12 IST" duration-ms="38702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogodesignPage -->
+        <test-method signature="UIUXdesignPage()[pri:11, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:31:12 IST" name="UIUXdesignPage" finished-at="2024-12-02T10:31:45 IST" duration-ms="33007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UIUXdesignPage -->
+        <test-method signature="MobileAppdesignPage()[pri:12, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:31:45 IST" name="MobileAppdesignPage" finished-at="2024-12-02T10:32:15 IST" duration-ms="29366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileAppdesignPage -->
+        <test-method signature="EcommercedesignPage()[pri:13, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:32:15 IST" name="EcommercedesignPage" finished-at="2024-12-02T10:32:43 IST" duration-ms="28913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcommercedesignPage -->
+        <test-method signature="ContentMarketingPage()[pri:14, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:32:43 IST" name="ContentMarketingPage" finished-at="2024-12-02T10:33:16 IST" duration-ms="32758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentMarketingPage -->
+        <test-method signature="LandingpageDesigning()[pri:15, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:33:16 IST" name="LandingpageDesigning" finished-at="2024-12-02T10:33:50 IST" duration-ms="33384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingpageDesigning -->
+        <test-method signature="PPCPage()[pri:16, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:33:50 IST" name="PPCPage" finished-at="2024-12-02T10:34:22 IST" duration-ms="32131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PPCPage -->
+        <test-method signature="SEOPage()[pri:17, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:34:22 IST" name="SEOPage" finished-at="2024-12-02T10:34:55 IST" duration-ms="33329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SEOPage -->
+        <test-method signature="SocialMediaMarketingPage()[pri:18, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:34:55 IST" name="SocialMediaMarketingPage" finished-at="2024-12-02T10:35:30 IST" duration-ms="34837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialMediaMarketingPage -->
+        <test-method signature="CROPage()[pri:19, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:35:30 IST" name="CROPage" finished-at="2024-12-02T10:36:05 IST" duration-ms="35235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CROPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.ServicePage@41a2befb]" started-at="2024-12-02T10:36:05 IST" name="tearDown" finished-at="2024-12-02T10:36:06 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.ServicePage -->
+      <class name="Ditinteractive.CareersPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.CareersPage@77f1baf5]" started-at="2024-12-02T10:24:09 IST" name="setUp" finished-at="2024-12-02T10:24:11 IST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.CareersPage@77f1baf5]" started-at="2024-12-02T10:24:11 IST" name="navigateToWebsite" finished-at="2024-12-02T10:24:42 IST" duration-ms="31366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="navigateToCareersPage()[pri:2, instance:Ditinteractive.CareersPage@77f1baf5]" started-at="2024-12-02T10:24:42 IST" name="navigateToCareersPage" finished-at="2024-12-02T10:25:15 IST" duration-ms="32957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCareersPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.CareersPage@77f1baf5]" started-at="2024-12-02T10:25:15 IST" name="tearDown" finished-at="2024-12-02T10:25:16 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.CareersPage -->
+      <class name="Ditinteractive.OurworkPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:20:38 IST" name="setUp" finished-at="2024-12-02T10:20:39 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:20:39 IST" name="navigateToWebsite" finished-at="2024-12-02T10:20:55 IST" duration-ms="15971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="OurWorkPage()[pri:2, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:20:55 IST" name="OurWorkPage" finished-at="2024-12-02T10:21:37 IST" duration-ms="41686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OurWorkPage -->
+        <test-method signature="SanciaPage()[pri:3, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:21:37 IST" name="SanciaPage" finished-at="2024-12-02T10:22:07 IST" duration-ms="30399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SanciaPage -->
+        <test-method signature="AlchemixPage()[pri:4, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:22:07 IST" name="AlchemixPage" finished-at="2024-12-02T10:22:35 IST" duration-ms="27217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlchemixPage -->
+        <test-method signature="CaratKingsJewellersPage()[pri:5, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:22:35 IST" name="CaratKingsJewellersPage" finished-at="2024-12-02T10:23:07 IST" duration-ms="32067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaratKingsJewellersPage -->
+        <test-method signature="KKLifestylePage()[pri:6, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:23:07 IST" name="KKLifestylePage" finished-at="2024-12-02T10:23:36 IST" duration-ms="29729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KKLifestylePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.OurworkPage@24313fcc]" started-at="2024-12-02T10:23:36 IST" name="tearDown" finished-at="2024-12-02T10:23:37 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.OurworkPage -->
+      <class name="Ditinteractive.NewsPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:15:54 IST" name="setUp" finished-at="2024-12-02T10:15:58 IST" duration-ms="4305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToWebsite()[pri:1, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:15:58 IST" name="navigateToWebsite" finished-at="2024-12-02T10:16:00 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWebsite -->
+        <test-method signature="ShopifyPage()[pri:2, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:16:00 IST" name="ShopifyPage" finished-at="2024-12-02T10:16:35 IST" duration-ms="34870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopifyPage -->
+        <test-method signature="BigcommercePage()[pri:3, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:16:35 IST" name="BigcommercePage" finished-at="2024-12-02T10:16:50 IST" duration-ms="15073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BigcommercePage -->
+        <test-method signature="EcommercePage()[pri:4, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:16:50 IST" name="EcommercePage" finished-at="2024-12-02T10:17:06 IST" duration-ms="15537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcommercePage -->
+        <test-method signature="WordPressPage()[pri:5, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:17:06 IST" name="WordPressPage" finished-at="2024-12-02T10:17:21 IST" duration-ms="15089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WordPressPage -->
+        <test-method signature="MagentoPage()[pri:6, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:17:21 IST" name="MagentoPage" finished-at="2024-12-02T10:17:30 IST" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoPage -->
+        <test-method signature="ReactJSPage()[pri:7, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:17:30 IST" name="ReactJSPage" finished-at="2024-12-02T10:17:37 IST" duration-ms="7513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReactJSPage -->
+        <test-method signature="BlogPage()[pri:8, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:17:37 IST" name="BlogPage" finished-at="2024-12-02T10:18:00 IST" duration-ms="22716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage -->
+        <test-method signature="BlogPage1()[pri:9, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:18:00 IST" name="BlogPage1" finished-at="2024-12-02T10:18:17 IST" duration-ms="17218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage1 -->
+        <test-method signature="BlogPage2()[pri:10, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:18:17 IST" name="BlogPage2" finished-at="2024-12-02T10:18:33 IST" duration-ms="15398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage2 -->
+        <test-method signature="BlogPage3()[pri:11, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:18:33 IST" name="BlogPage3" finished-at="2024-12-02T10:18:52 IST" duration-ms="19147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ditinteractive.NewsPage@8297b3a]" started-at="2024-12-02T10:18:52 IST" name="tearDown" finished-at="2024-12-02T10:18:52 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ditinteractive.NewsPage -->
+    </test> <!-- Smoke Testing -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
